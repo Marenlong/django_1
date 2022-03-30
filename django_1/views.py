@@ -20,8 +20,8 @@ def runoob(request):
     context          = {}
     context['hello'] = 'Hello World!'
     return render(request, 'runoob.html', context)
-
-    # views_list = ["菜鸟教程1", "菜鸟教程2", "菜鸟教程3"]
+    print('none--1')
+    # views_list = ["菜鸟教程1", "菜鸟教程2", "菜鸟教程6"]
     # return render(request, "runoob.html", {"views_list": views_list})
 
 def runroob2(request):
