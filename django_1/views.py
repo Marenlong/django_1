@@ -19,6 +19,7 @@ def runoob(request):
     print("======   ")
     context          = {}
     context['hello'] = 'Hello World!'
+    print('++++++++++++++++++++++++++++++++++++++++++++')
     return render(request, 'runoob.html', context)
 
     # views_list = ["菜鸟教程1", "菜鸟教程2", "菜鸟教程6"]
