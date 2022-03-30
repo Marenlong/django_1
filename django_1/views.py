@@ -20,7 +20,7 @@ def runoob(request):
     context          = {}
     context['hello'] = 'Hello World!'
     print('++++++++++++++++++++++++++++++++++++++++++++')
-    print('++++++++++++++++++++++++++++++++++++++++++++')
+    print('+++++++++++++++++++++++++++++++++++++++++++++')
     return render(request, 'runoob.html', context)
 
     # views_list = ["菜鸟教程1", "菜鸟教程2", "菜鸟教程6"]
